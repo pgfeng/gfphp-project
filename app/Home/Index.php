@@ -16,9 +16,7 @@ class Index extends Controller
     /**
      *
      */
-    public function index($category_id = 0,$id=0){
-        var_dump($category_id);
-        var_dump($id);
+    public function indexAction(){
         echo 'isController';
     }
 }
