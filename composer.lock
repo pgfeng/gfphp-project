@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fdab445e08e00030c576a98b3a09a2a1",
-    "content-hash": "285b257b56494ddc49bfe1850e6cf5a5",
+    "hash": "4dd705a73939dc96c71feec5daada510",
+    "content-hash": "ad16c510817797c26fb089c9b5547b11",
     "packages": [
         {
             "name": "filp/whoops",
@@ -17,7 +17,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/f2950be7da8b8d6c4e77821b6c9d486e36cdc4f3",
+                "url": "https://files.phpcomposer.com/files/filp/whoops/f2950be7da8b8d6c4e77821b6c9d486e36cdc4f3.zip",
                 "reference": "f2950be7da8b8d6c4e77821b6c9d486e36cdc4f3",
                 "shasum": ""
             },
@@ -69,42 +69,55 @@
             "time": "2017-03-07 09:04:45"
         },
         {
-            "name": "gfphp/framework",
-            "version": "dev-master",
+            "name": "php-console/php-console",
+            "version": "3.1.6",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pgfeng/framework.git",
-                "reference": "78508ca96343864b0c9dcfa3f9b757b979db0c7a"
+                "url": "https://github.com/barbushin/php-console.git",
+                "reference": "07801c32ea32e4d57ddf1c6b9cf98ff7f2982542"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pgfeng/framework/zipball/78508ca96343864b0c9dcfa3f9b757b979db0c7a",
-                "reference": "78508ca96343864b0c9dcfa3f9b757b979db0c7a",
+                "url": "https://files.phpcomposer.com/files/barbushin/php-console/07801c32ea32e4d57ddf1c6b9cf98ff7f2982542.zip",
+                "reference": "07801c32ea32e4d57ddf1c6b9cf98ff7f2982542",
                 "shasum": ""
             },
             "require": {
-                "filp/whoops": "2.1.8",
-                "php": ">=5.5.9"
+                "php": ">=5.3.0"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
             "autoload": {
-                "files": [],
-                "psr-4": {
-                    "GFPHP\\": "src/"
+                "psr-0": {
+                    "PhpConsole": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "MIT"
+                "BSD 3-Clause"
             ],
             "authors": [
                 {
-                    "name": "PGF",
-                    "email": "592472116@qq.com"
+                    "name": "Sergey Barbushin",
+                    "email": "barbushin@gmail.com",
+                    "homepage": "http://linkedin.com/in/barbushin"
                 }
             ],
-            "description": "gfphp/framework",
-            "time": "2017-03-25 02:00:25"
+            "description": "Server side PHP library for Google Chrome extension \"PHP Console\".",
+            "homepage": "https://github.com/barbushin/php-console",
+            "keywords": [
+                "chrome",
+                "debug",
+                "error handler",
+                "errors",
+                "google chrome",
+                "php"
+            ],
+            "time": "2016-02-19 16:00:24"
         },
         {
             "name": "psr/log",
@@ -116,7 +129,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "url": "https://files.phpcomposer.com/files/php-fig/log/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d.zip",
                 "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
                 "shasum": ""
             },
@@ -157,9 +170,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "gfphp/framework": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

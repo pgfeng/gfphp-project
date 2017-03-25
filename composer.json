@@ -2,6 +2,8 @@
     "name": "gfphp/project",
     "license": "MIT",
     "type": "project",
+    "keywords": ["GFPHP","Framework","Example Project"],
+    "description": "GFPHP Example Project",
     "authors": [
         {
             "name": "PGF",
@@ -13,6 +15,11 @@
         "gfphp/framework": "dev-master"
     },
     "autoload": {
+        "psr-4": {
+        },
+
+        "files": [
+        ],
         "classmap":[
             "app","model"
         ]
