@@ -1,6 +1,6 @@
 {
     "name": "gfphp/project",
-    "license": "",
+    "license": "MIT",
     "type": "project",
     "authors": [
         {
