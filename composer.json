@@ -1,0 +1,20 @@
+{
+    "name": "gfphp/project",
+    "license": "",
+    "type": "project",
+    "authors": [
+        {
+            "name": "PGF",
+            "email": "592472116@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "gfphp/framework": "dev-master"
+    },
+    "autoload": {
+        "classmap":[
+            "app","model"
+        ]
+    }
+}
