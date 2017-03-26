@@ -11,7 +11,11 @@ namespace app;
 
 use GFPHP\Controller;
 
-class Home extends Controller
+/**
+ * Class HomeController
+ * @package app
+ */
+class HomeController extends Controller
 {
     protected $layout = false;
     public function indexAction(){

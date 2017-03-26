@@ -12,6 +12,10 @@ return [
 
     //-----默认404
     'default_404'        => '',
+
+    //--控制器后缀
+    'controllerSuffix'  => 'Controller',
+
     //--行为后缀
     'methodSuffix'       => 'Action',
 

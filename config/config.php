@@ -1,4 +1,4 @@
 <?php
 return [
-    'aaa' => '123',
+    'app_name'  => 'gfphp-example',
 ];

@@ -11,7 +11,11 @@ namespace app\Home;
 
 use GFPHP\Controller;
 
-class Index extends Controller
+/**
+ * Class IndexController
+ * @package app\Home
+ */
+class IndexController extends Controller
 {
     /**
      *

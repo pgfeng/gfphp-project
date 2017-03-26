@@ -11,7 +11,7 @@ namespace model;
 
 use GFPHP\Model;
 
-class test extends Model
+class testModel extends Model
 {
     public function test(){
         return $this->getOne();
