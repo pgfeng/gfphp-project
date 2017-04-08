@@ -21,8 +21,6 @@ return [
         'driver'    => 'PdoDriver',     //参考drives/databases目录下文件
         //'driver' => 'MysqliDriver',
 //    'driver' => 'mysql',
-        //--DSN,使用PDO驱动时使用DSN链接
-        'DSN'       => 'mysql:dbname=g-cmf;host=127.0.0.1;port=3306;',
         //--库名
         'name'      => 'g-cmf',
         //--用户名
@@ -33,9 +31,5 @@ return [
         'pass'      => 'root',
         //--编码
         'charset'   => 'utf8',
-        //--是否开启缓存
-//    'cache' => 0,
-        //缓存存放位置
-//    'cache_dir' => 'database'
     ],
 ];

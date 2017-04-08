@@ -6,6 +6,5 @@
  * Time: 20:14
  */
 include 'vendor/autoload.php';
-GFPHP\GFPHP::init('app');
-
+GFPHP\GFPHP::init('App');
 GFPHP\GFPHP::run();

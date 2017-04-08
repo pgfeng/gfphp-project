@@ -16,12 +16,8 @@
     },
     "autoload": {
         "psr-4": {
-        },
-
-        "files": [
-        ],
-        "classmap":[
-            "app","model"
-        ]
+            "App\\": "App",
+            "Model\\":"Model"
+        }
     }
 }

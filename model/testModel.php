@@ -11,6 +11,10 @@ namespace model;
 
 use GFPHP\Model;
 
+/**
+ * Class testModel
+ * @package model
+ */
 class testModel extends Model
 {
     public function test(){
