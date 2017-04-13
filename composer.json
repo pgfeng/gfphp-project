@@ -12,7 +12,7 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "gfphp/framework": "dev-master"
+        "gfphp/framework":"dev-master"
     },
     "autoload": {
         "psr-4": {

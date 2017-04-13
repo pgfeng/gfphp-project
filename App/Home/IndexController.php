@@ -8,8 +8,6 @@
 
 namespace App\Home;
 
-
-use GFPHP\Config;
 use GFPHP\Controller;
 
 /**
@@ -19,9 +17,14 @@ use GFPHP\Controller;
 class IndexController extends Controller
 {
     /**
-     *
+     * @return mixed|String
      */
     public function indexAction(){
+        $this->Assign('title','欢迎您的使用!');
+        $this->Assign(array(
+            'hello' =>'Hello Word!',
+            'content' => 'GFPHP 简单,迅捷的PHP框架.',
+        ));
         return $this->Display();
     }
 }

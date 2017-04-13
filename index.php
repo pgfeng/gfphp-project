@@ -1,10 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: PGF
- * Date: 2017/3/24
- * Time: 20:14
- */
 include 'vendor/autoload.php';
-GFPHP\GFPHP::init('App');
-GFPHP\GFPHP::run();
+\GFPHP\GFPHP::init('App');
+\GFPHP\Router::GET('Page-(.*?).html','Home/index@page');
+\GFPHP\Router::all('1-(.+).html', 'Home/Index@index');
+\GFPHP\GFPHP::run();
