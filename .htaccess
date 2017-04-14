@@ -1,9 +1,7 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /
-
-    RewriteCond %{REQUEST_FILENAME} !-f
+    # Reroute any incoming request that is not an existing directory or file
     RewriteCond %{REQUEST_FILENAME} !-d
-
-    RewriteRule ^.*$ index.php [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php?_router=$1 [L,QSA]
 </IfModule>

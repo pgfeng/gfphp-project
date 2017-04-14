@@ -21,7 +21,9 @@ return [
     'default_method'    => 'index',
 
     //-----默认404
-    'default_404'        => '',
+    'default_404'        => function(){
+        \GFPHP\GFPHP::$Template->display('@'.METHOD_NAME);
+    },
 
     //--控制器后缀
     'controllerSuffix'  => 'Controller',
