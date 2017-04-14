@@ -26,7 +26,7 @@ return [
 
 	//--是否开启模板静态化,默认关闭
 
-	'view_cache' => 1,
+	'view_cache' => false,
 
 	//--模板标签配置
 	'leftDelim'  => '\{',
