@@ -9,6 +9,8 @@
 namespace App\Home;
 
 use GFPHP\Controller;
+use GFPHP\DB;
+use GFPHP\Debug;
 
 /**
  * Class IndexController
@@ -25,6 +27,7 @@ class IndexController extends Controller
             'hello' =>'Hello Word!',
             'content' => 'GFPHP 简单,迅捷的PHP框架.',
         ));
+        DB::table('admin_menu')->findAll();
         return $this->Display();
     }
 }

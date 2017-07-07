@@ -22,13 +22,13 @@ return [
         //'driver' => 'MysqliDriver',
 //    'driver' => 'mysql',
         //--库名
-        'name'      => 'g-cmf',
+        'name'      => 'linjia',
         //--用户名
         'user'      => 'root',
         //--表名前缀
         'table_pre' => 'p_',
         //--密码
-        'pass'      => 'root',
+        'pass'      => 'lunatic59247.',
         //--编码
         'charset'   => 'utf8',
     ],

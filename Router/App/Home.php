@@ -6,3 +6,6 @@
  * Time: 13:22
  */
 \GFPHP\Router::all('index.html','Home/Index@index');
+\GFPHP\Router::all('favicon.ico',function (){
+    return '';
+});
