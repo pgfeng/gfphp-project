@@ -9,9 +9,6 @@
 namespace App\Home;
 
 use GFPHP\Controller;
-use GFPHP\DB;
-use GFPHP\Debug;
-
 /**
  * Class IndexController
  * @package app\Home
@@ -21,13 +18,14 @@ class IndexController extends Controller
     /**
      * @return mixed|String
      */
-    public function indexAction(){
-        $this->Assign('title','欢迎您的使用!');
-        $this->Assign(array(
-            'hello' =>'Hello Word!',
+    public function indexAction()
+    {
+        $this->assign('title', '欢迎您的使用!');
+
+        $this->assign(array(
+            'hello' => 'Hello Word!',
             'content' => 'GFPHP 简单,迅捷的PHP框架.',
         ));
-        DB::table('admin_menu')->findAll();
-        return $this->Display();
+        return $this->display();
     }
 }

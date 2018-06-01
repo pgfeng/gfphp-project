@@ -5,5 +5,12 @@
  * Date: 2017/4/20
  * Time: 0:31
  */
+
+use GFPHP\GFPHP;
+//ini_set('display_errors','on');
 include '../server.php';
-\GFPHP\GFPHP::run();
+try {
+    GFPHP::run();
+} catch (Exception $e) {
+    dump($e);
+}

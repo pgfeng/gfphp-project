@@ -22,7 +22,7 @@ return [
 
     //-----默认404
     'default_404'        => function(){
-        \GFPHP\GFPHP::$Template->display('@'.METHOD_NAME);
+        return \GFPHP\GFPHP::$Template->display('@'.METHOD_NAME);
     },
 
     //--控制器后缀

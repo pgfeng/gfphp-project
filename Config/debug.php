@@ -9,7 +9,8 @@
 return [
     'log_handler' => [
         new \Monolog\Handler\StreamHandler(BASE_PATH . 'Log/' . date('Y-m-d') . '.log', \Monolog\Logger::DEBUG, true, null, false),
-        new \Monolog\Handler\BrowserConsoleHandler(\Monolog\Logger::DEBUG, true)
+//        new \Monolog\Handler\BrowserConsoleHandler(\Monolog\Logger::DEBUG, true)
+//        new \Monolog\Handler\NullHandler()
     ],
     'Whoops_handler' => [
         new \Whoops\Handler\PrettyPageHandler,
