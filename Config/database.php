@@ -18,7 +18,7 @@ return [
         //-- 端口
         'port' => '3306',
         //--驱动
-        'driver' => 'PdoDriver',     //参考drives/databases目录下文件
+        'driver' => \GFPHP\Database\PDO::class,     //参考drives/databases目录下文件
         //--库名
         'name' => 'test',
         //--用户名
@@ -26,12 +26,8 @@ return [
         //--表名前缀
         'table_pre' => 'p_',
         //--密码
-        'pass' => 'lunatic59247.',
+        'pass' => 'root',
         //--编码
         'charset' => 'utf8',
-        //--缓存是否打开,数据破万后打开有明显提升
-        'cache' => true,
-        //--数据库缓存
-        'cache_dir' => 'database',
     ],
 ];
