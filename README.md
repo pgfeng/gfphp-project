@@ -15,4 +15,4 @@ PHP 版本 >= 5.5.9
 OpenSSL PHP 扩展
 Mbstring PHP 扩展
 ## 开发文档
- 看云 [https://www.kancloud.cn/lunatic59247/gfphp/730311](https://www.kancloud.cn/lunatic59247/gfphp/730311) 
+ 文档地址 [https://www.kancloud.cn/lunatic59247/gfphp/730311](https://www.kancloud.cn/lunatic59247/gfphp/730311) 
