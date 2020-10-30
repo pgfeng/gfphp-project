@@ -8,7 +8,7 @@
 ## 创建项目
 通过 composer 快速创建一个项目
 ```
-composer create-project gfphp/project --prefer-dist
+composer create-project gfphp/project
 ```
 ## 环境需求
 PHP 版本 >= 5.5.9
